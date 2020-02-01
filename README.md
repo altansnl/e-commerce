@@ -1,10 +1,10 @@
-# e-commerce
+# small e-commerce store
 Sport Compass Internship Assignment
 
 ## Usage
 store.html is the small e-commerce store
 - It's responsive
-- User can add/edit/delete items from their cart
+- Users can add/edit/delete items from their cart
 - It is possible to add the same item multiple times
 - Broken images are swapped by a default image called "imgs/default.png"
 - Navigation bar does not point to other pages
@@ -17,4 +17,5 @@ store.html is the small e-commerce store
 
 ## Additional
 - In the beginning, I was familiar with HTML,CSS and Bootstrap
-- During the assignment I had the chance to learn and use: JavaScript,JQuery,QUnit
+- During the assignment I had the chance to learn and use: JavaScript,DOM,JQuery,QUnit
+- Data is not persisted, that's what I am looking to learn next!
