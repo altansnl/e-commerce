@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>From the Lake Mugs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3a4e9af43f.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="company-description d-none d-md-flex align-items-center h-100">
+                        <span>COFFEE MUGS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-mug-hot" id="brand-icon"></i>
+                From the Lake
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 d-flex justify-content-left">
+                    <li class="nav-item active" id="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shopping Cart -->
+    <section>
+        <div class="container my-2">
+            <div id="shopping-cart">
+                <div class="cart-title text-center mt-2">
+                    Shopping Cart
+                </div>
+
+                <hr class="style-six">
+                
+                <!-- item 1 -->
+                <!--
+                <div class="cart-item">
+                    <span class="item-properties">
+                        <span class="item-id">0</span>
+                        <span class="cart-buttons mx-2">
+                            <button class="cart-delete">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </span>
+        
+                        <img class="cart-img mx-2" src="imgs/mug1.jpg" alt="" onerror="this.onerror=null;this.src='imgs/default.png';">
+        
+                        <span id="cart-description" class="cart-description mx-2">
+                            "The Adventure Begins" Mug
+                        </span>
+                    </span>
+                    
+                    <span class="item-checkout">
+                        <span class="cart-price mx-2">
+                            15.99$
+                        </span>
+
+                        <span class="cart-quantity mx-2">
+                            <button class="button-minus">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input class="text-center" type="text" name="name" value="1">
+                            <button class="button-plus">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </span>
+                    </span>
+                </div>
+                <hr class="style-six">
+                -->
+                <!-- item 1 end -->
+
+                <div class="final-price mb-2">
+                    <span>
+                        <span class="total-price">
+                            Total: 0$
+                        </span>
+                        <button>Order Now</button>
+                    </span>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug1.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">White Ceramic "Begin" Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 15.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">0</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug2.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">Black "Forest" Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 17.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">1</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug3.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">Black "Never Settle" Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 13.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">2</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug4.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">Santa Claus Mug</h5>
+                          <h6 class="card-description">Begin Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 19.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">3</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug5.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">Small Ceramic Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 11.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">4</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug6.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">Cuba Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 15.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">5</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug7.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">White "Encouraging" Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 15.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">6</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug8.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">United Kingdom Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 17.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">7</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/mug9.jpg" alt="Card image cap" onerror="this.onerror=null;this.src='imgs/default.png';">
+                        <div class="card-body py-3">
+                          <h5 class="card-title">"The Adventure Begins" Mug</h5>
+                          <h6 class="card-description">Ceramic Coffee Mug, Free Shipping Country Wide</h6>
+                          <div id="order-tab">
+                            <h6 id="price">Price: 17.99$</h3>
+                            <button class="px-2">Add to Cart</button>
+                            <i class="fas fa-check-circle"></i>
+                            <span class="id d-none">8</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- jQuery, Poppers, Bootstrap JS files -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+        <!-- Custom JS files-->
+        <script src="sticky-navbar.js"></script>
+        <script src="shopping-cart.js"></script>
+
+</body>
+
+</html>
