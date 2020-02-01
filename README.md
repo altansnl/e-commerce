@@ -16,5 +16,5 @@ store.html is the small e-commerce store
 - QUnit was used, which is a JavaScript unit testing framework: https://qunitjs.com/
 
 ## Additional
-- In the beginning of the assignment, I was familiar with HTML,CSS and Bootstrap
+- In the beginning, I was familiar with HTML,CSS and Bootstrap
 - During the assignment I had the chance to learn and use: JavaScript,JQuery,QUnit
